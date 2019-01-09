@@ -1,0 +1,38 @@
+.button, input, select, textarea {
+font-family: georgia;
+font-size: 100%;
+
+}
+fieldset {
+
+
+}
+legend{
+
+}
+.button, input, textarea, select {
+
+}
+input[type="radio"] + label {
+  padding: 10px;
+}
+.v1{
+  color: blue;
+}
+.red{
+  color: red;
+}
+.green{
+  color: green;
+}
+.toekomst{
+  height: 90px;
+  width: 400px;
+}
+
+#validatie img {
+    height: 1em;
+    width: auto;
+    border: 0;
+    margin: 0 .3em;
+}
