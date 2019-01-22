@@ -13,12 +13,14 @@
 <body>
     <h1> Een plan voor jouw ontwikkeling </h1>
     <h3> Om een eerste stap te maken naar een persoonlijk opleidingsplan zul je eerst een paar vragen over jezelf moeten beantwoorden. Dit formulier helpt je daar bij </h3>
-    <form action="/my-handling-form-page" method="post">
+    <form action="http://bla.hosts.ma-cloud.nl/pop.php">
   <div>
+
+
     <label>Naam:</label>
     <input type="text" class="naam" name="gebruiker_name" placeholder="bijv. Jan Jansen" autofocus>
+
   </div>
-  </form>
   <select name="selecteer jou klas" required class="button_1">
     <option value="">Selecteer jou klas</option>
     <option>MG1A</option>
@@ -29,7 +31,6 @@
 
     <fieldset class="welbevinden">
       <legend> Welbevinden </legend>
-    <form>
       <label>Hoe positief ben je op dit moment over de opleiding?</label><br><input type="radio" name="favcolor" value="0"><label>0</label>
       <input type="radio" name="positief" value="1"><label>1</label>
       <input type="radio" name="positief" value="2"><label>2</label>
@@ -41,9 +42,9 @@
       <input type="radio" name="positief" value="8"><label>8</label>
       <input type="radio" name="positief" value="9"><label>9</label>
       <input type="radio" name="positief" value="10"><label>10</label><br>
-    </form>
 
-    <form>
+
+
       <label>Hoe gemotiveerd ben je momenteel om de opleiding af te maken.</label><br><input type="radio" name="favcolor" value="0"><label>0</label>
       <input type="radio" name="gemotiveerd" value="1"><label>1</label>
       <input type="radio" name="gemotiveerd" value="2"><label>2</label>
@@ -55,9 +56,9 @@
       <input type="radio" name="gemotiveerd" value="8"><label>8</label>
       <input type="radio" name="gemotiveerd" value="9"><label>9</label>
       <input type="radio" name="gemotiveerd" value="10"><label>10</label><br>
-    </form>
 
-    <form>
+
+
       <label>Hoeveel vertrouwen heb je momenteel in je eigen kunnen.</label><br><input type="radio" name="favcolor" value="0"><label>0</label>
       <input type="radio" name="vertrouwen" value="1"><label>1</label>
       <input type="radio" name="vertrouwen" value="2"><label>2</label>
@@ -69,9 +70,9 @@
       <input type="radio" name="vertrouwen" value="8"><label>8</label>
       <input type="radio" name="vertrouwen" value="9"><label>9</label>
       <input type="radio" name="vertrouwen" value="10"><label>10</label><br>
-    </form>
 
-    <form>
+
+
       <label>Hoeveel cijfer geef je de school.</label><br><input type="radio" name="favcolor" value="0"><label>0</label>
       <input type="radio" name="cijfer" value="1"><label>1</label>
       <input type="radio" name="cijfer" value="2"><label>2</label>
@@ -83,40 +84,38 @@
       <input type="radio" name="cijfer" value="8"><label>8</label>
       <input type="radio" name="cijfer" value="9"><label>9</label>
       <input type="radio" name="cijfer" value="10"><label>10</label><br>
-    </form>
+
 
                   </fieldset>
                   <br>
                   <fieldset>
                     <legend>sterke kanten</legend>
-                    <form>
+
                       <label>wat zijn jouw sterke kanten?</label><br><input type="checkbox" name="favcolor"><label>Coderen in HTML/CSS</label>
                       <input type="checkbox" name="sterkekanten"><label>Programmeren in Java</label>
                       <input type="checkbox" name="sterkekanten"><label>Scripting: programmeren in JavaScript</label>
                       <input type="checkbox" name="sterkekanten"><label>planning</label>
                       <input type="checkbox" name="sterkekanten"><label>Samenwerken</label>
                 <br>
-                    </form>
+
                   </fieldset>
                   <br>
                   <fieldset>
                     <legend>Nog te ontwikkelen</legend>
-                    <form>
                       <label>Aan welke skills moet je nog extra aandacht besteden?</label><br><input type="checkbox" name="favcolor"><label>Coderen in HTML/CSS</label>
                       <input type="checkbox" name="skills"><label>Programmeren in Java</label>
                       <input type="checkbox" name="skills"><label>Scripting: programmeren in JavaScript</label>
                       <input type="checkbox" name="skills"><label>planning</label>
                       <input type="checkbox" name="skills"><label>Samenwerken</label>
                 <br>
-                    </form>
+
                   </fieldset>
-                  <form>
+
                     <div>
                       <label>Wat zijn jouw plannen voor de toekomst?</label><br>
                       <input type="text" class="toekomst" name="toekomst">
                     </div>
-                  </form>
-                  <form action="http://bla.hosts.ma-cloud.nl/pop.php">
+
                   <input type="submit">
                 </form>
 
